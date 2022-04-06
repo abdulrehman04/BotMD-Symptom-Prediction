@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 app = Flask(__name__)
 
 # df = pd.read_csv("https://docs.google.com/spreadsheets/d/1HjH89Ryw3NzT62sedvTC54_DqNkvRgTZn4XXTN4sZuM/export?format=csv&id=1HjH89Ryw3NzT62sedvTC54_DqNkvRgTZn4XXTN4sZuM&gid=1781495660")
-df = pd.read_csv("https://docs.google.com/spreadsheets/d/1_Jvro_5dUl6OVSgZoCMxOuo5TUZ_kYi3/export?format=xlsx&id=1_Jvro_5dUl6OVSgZoCMxOuo5TUZ_kYi3")
+df = pd.read_csv(r'https://docs.google.com/spreadsheets/d/1_Jvro_5dUl6OVSgZoCMxOuo5TUZ_kYi3/export?format=xlsx&id=1_Jvro_5dUl6OVSgZoCMxOuo5TUZ_kYi3')
 
 df.isnull().sum()
 
