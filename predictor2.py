@@ -49,4 +49,4 @@ def scrapeData(v1, v2, v3, v4, v5, v6, v7, v8, v9):
     return y_pred
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=5000,debug=True)
